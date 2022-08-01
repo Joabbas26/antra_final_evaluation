@@ -1,0 +1,73 @@
+.container_input_todo_list{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.input_todo_list{
+    border-radius: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    width: 20vw;
+    font-size: 1.4rem;
+    padding: 0 15px;
+}
+
+.input_button_submit{
+    border: none;
+    border-radius: 5px;
+    color: #f0f0f0;
+    padding: .5rem;
+    width: 5rem;
+    height: 3rem;
+    font-size: 1.1rem;
+}
+
+.input_todo_list:focus-within{
+    border: 2px solid rgb(201, 201, 201);
+}
+
+.container_todo_list{
+    border: 2px solid #e6e2d3;
+    border-radius: 10px;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.task_empty_text{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: gray;
+}
+
+.todo_list_item{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: #e6e2d3;
+    border-radius: 10px;
+    margin: 1rem;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 1.4rem;
+}
+
+.button_edit_todo, .input_button_submit{
+    background-color: #008cba;
+}
+.button_delete_todo{
+    background-color: #c94c4c;
+}
+
+.button_edit_todo, .button_delete_todo{
+    height: 2.4rem;
+    width: 2.4rem;
+    border: none;
+    border-radius: 5px;
+    fill: #f0f0f0;
+}
+
+.div_todolist_buttons{
+    align-self: center;
+}
