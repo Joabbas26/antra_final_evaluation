@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Antra Final Evaluation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container__input__todo__list">
+            <input class="input__todo__list" type="text" 
+            onchange="handleInput(this.value)"/> 
+            <button type="button" class="input__button__submit" 
+            onclick="handleSubmit()">Submit</button>
+        </div>
+        <main id="container__todo__list">
+            <p class="task__empty__text">No active task</p>
+        </main>
+        <script src="index.js" async defer></script>
+    </body>
+</html>

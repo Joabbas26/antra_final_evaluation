@@ -1,0 +1,77 @@
+.container__input__todo__list{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.input__todo__list{
+    border-radius: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    width: 20vw;
+    font-size: 1.4rem;
+    padding: 0 15px;
+}
+
+.input__button__submit{
+    border: none;
+    border-radius: 5px;
+    color: #f0f0f0;
+    padding: .5rem;
+    width: 5rem;
+    height: 3rem;
+    font-size: 1.1rem;
+}
+
+.input__todo__list:focus-within{
+    border: 2px solid rgb(201, 201, 201);
+}
+
+#container__todo__list{
+    border: 2px solid #e6e2d3;
+    border-radius: 10px;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.task__empty__text{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: gray;
+}
+
+.todo__list__item{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: #e6e2d3;
+    border-radius: 10px;
+    margin: 1rem;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 1.4rem;
+}
+
+.button__edit__todo, .input__button__submit{
+    background-color: #008cba;
+}
+.button__delete__todo{
+    background-color: #c94c4c;
+}
+
+.button__edit__todo, .button__delete__todo{
+    height: 2.4rem;
+    width: 2.4rem;
+    border: none;
+    border-radius: 5px;
+    fill: #f0f0f0;
+}
+
+.div__todolist__buttons{
+    align-self: center;
+}
+
+button{
+    cursor: pointer;
+}
